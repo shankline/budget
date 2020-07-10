@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+*:focus {
+    outline: none;
+}
+
+body{
+    background-color: rgb(0,0,0,0.8);
+    font-family: sans-serif;
+}
+
+.main-wrapper{
+    background-color: white;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#weekly{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+.center-text{
+    text-align: center;
+    color: #3d6cb9;
+    margin-bottom: 2rem;
+}
+
+input{
+    width:80%;
+    height: 15px;
+    padding: 16px 20px;
+    color: #3a478d;
+    border-radius: 4px;
+    margin: 8px 0;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+}
+
+
+#all-buttons
+{
+    width:100%;
+    text-align: center;
+}
+
+.btn
+{
+    display: inline-block;
+    color: white;
+    height: 2.6rem;
+    width: 3.6rem;
+    background-color: #3a478d;
+    font-family: 'Bellota Text', cursive;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+
+
+.list{
+    margin-left: 2rem;
+
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+
+}
+
+#bold{
+    color:red;
+    font-weight: bold;
+}
+
+#other
+.list-expenses{
+    margin-bottom: 1rem;
+}
+
+.amount{
+    padding-left: 7rem;
+}
+
+.budget{
+    background-color: lightblue;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.left{
+    background-color: lightblue;
+    padding: 1rem;
+}
+
+#warning{
+    display: none;
+    padding-top: 0;
+    color: blue;
+}
+
+@media only screen and (min-width:768px) and (max-width:960px){
+    /* Tablet */
+    .amount{
+        padding-left: 30rem;
+    }
+
+    input{
+        margin-left: 3rem;
+    }
+
+    .expenses p{
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (min-width:961px){
+    .main-wrapper{
+        display: flex;
+        width: 50rem;
+        margin-left: 20rem;
+    }
+
+    .list{
+        margin-left: 20rem;
+    }
+}

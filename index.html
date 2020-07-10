@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        <h2 id="weekly">My Weekly Budget App</h2>
+    <div class="main-wrapper">
+
+        <form action="" name="my" id="my-form">
+        <div class="expenses">
+            <h2 class="center-text">Add your Expenses Here</h2>
+            <p>Enter Your Budget For the week:</p>
+            <input type="number" name="budget" id="my-budget">
+
+            <form action="" id="my-form">
+            <p>Name</p>
+            <input type="text" name="expense" id="expense-name" placeholder=>
+           
+
+            <p>Amount</p>
+            <input type="number" name="amount" id="expense-amount" placeholder=>
+            <p id="warning">Please fill out all fields</p>
+
+        <div id="all-buttons" >
+            <button type="submit" class="btn"  id="expense-button">Add</button>
+            <button type="submit" class="btn"   id="save-items">Save</button>
+            <button type="submit" class="btn"   id="clear-btn">Clear</button>
+        </div>
+        </form>
+        </div>
+    </form>
+        
+
+        <div class="list">
+            <h2 class="center-text">List</h2>
+
+            <div class="list-expenses">
+                <ul id="list-items">
+                    <li class="item" id="bold">Title <span class="amount"> Value</span></li>
+                    <li id="add"><span id="add-span" class="amount"></span></li>
+                </ul>
+            </div>
+
+            <div class="budget">
+                <p id="amt-budget">Budget:</p>
+            </div>
+
+            <div class="left">
+                <p id="amt-left">Left:</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
